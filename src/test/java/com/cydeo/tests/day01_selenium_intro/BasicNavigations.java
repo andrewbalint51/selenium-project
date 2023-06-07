@@ -13,8 +13,12 @@ public class BasicNavigations {
         //Create instance of chrome browser
         WebDriver driver = new ChromeDriver();
 
+        driver.manage().window().maximize();
+
         //go to tesla.com
         driver.get("https://www.tesla.com");
+
+        System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());
 
         driver.navigate().back();
 
@@ -28,10 +32,16 @@ public class BasicNavigations {
 
         Thread.sleep(1000);
 
-        driver.get("https://www.google.com");
+        driver.navigate().to("https://www.google.com");
 
-
+        
 
         System.out.println("driver.getTitle() = " + driver.getTitle());
+
+        System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());
+
+        driver.close();
+
+        driver.quit();
     }
 }
