@@ -1,7 +1,35 @@
 package com.cydeo.tests.day02_locators;
 
+import com.cydeo.tests.Utilities.WebDriverUtility;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
 public class HWP1 {
     public static void main(String[] args) {
+
+        //Open Chrome
+        WebDriver driver = WebDriverUtility.openChrome();
+
+        driver.get("https://www.etsy.com");
+
+        WebElement searchBar = driver.findElement(By.name("search_query"));
+
+        //search for wooden spoon
+        searchBar.sendKeys("wooden spoon");
+        searchBar.sendKeys(Keys.ENTER);
+
+        String expectedTitle = "Wooden spoon - Etsy";
+        String actualTitle = driver.getTitle();
+
+        if(expectedTitle.equals(actualTitle)){
+            System.out.println("PASSED");
+        }
+        else{
+            System.out.println("FAILED");
+        }
+
 
     }
     /*

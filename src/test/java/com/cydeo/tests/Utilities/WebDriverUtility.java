@@ -6,13 +6,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebDriverUtility {
 
-    public void openChrome(){
+    public static WebDriver openChrome(){
         //1. Open Chrome browser
         WebDriverManager.chromedriver().setup(); //Setup chrome
 
         WebDriver driver = new ChromeDriver();
 
         driver.manage().window().maximize();
+
+        return driver;
     }
 
 }
