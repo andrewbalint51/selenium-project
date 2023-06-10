@@ -1,4 +1,4 @@
-package com.cydeo.tests.day03_;
+package com.cydeo.tests.day03_css_xpath;
 
 import com.cydeo.tests.Utilities.WebDriverFactory;
 import org.openqa.selenium.By;
@@ -56,17 +56,11 @@ public class TC2 {
     }
 
     /*
-    TC #2: NextBaseCRM, locators, getText(), getAttribute() practice
-1- Open a chrome browser
-2- Go to: https://login1.nextbasecrm.com/
-3- Verify “remember me” label text is as expected:
-Expected: Remember me on this computer
-4- Verify “forgot password” link text is as expected:
-Expected: Forgot your password?
-5- Verify “forgot password” href attribute’s value contains expected:
-Expected: forgot_password=yes
-
-PS: Inspect and decide which locator you should be using to locate web
-elements.
+    HWP #1: Etsy Title Verification
+1. Open Chrome browser
+2. Go to https://www.etsy.com
+3. Search for “wooden spoon”
+4. Verify title:
+Expected: “Wooden spoon - Etsy”
      */
 }
