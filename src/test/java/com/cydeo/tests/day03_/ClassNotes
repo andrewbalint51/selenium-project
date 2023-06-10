@@ -1,0 +1,10 @@
+Maven - Build Management Tol
+Build - Repeated steps when & after a project is created
+
+Maven -
+    Create main, test, POM.xml, add dependencies
+
+Maven is not the only build management tool.
+
+CSS Selector: input[value='Log In']
+xpath: //input[@class='login-btn']

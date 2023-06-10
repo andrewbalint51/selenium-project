@@ -1,6 +1,6 @@
 package com.cydeo.tests.day02_locators;
 
-import com.cydeo.tests.Utilities.WebDriverUtility;
+import com.cydeo.tests.Utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 public class HWP2 {
     public static void main(String[] args) {
 
-        WebDriver driver = WebDriverUtility.openChrome();
+        WebDriver driver = WebDriverFactory.openChrome();
 
         //2. Go to http://zero.webappsecurity.com/login.html
         driver.get("http://zero.webappsecurity.com/login.html");
