@@ -22,7 +22,7 @@ public class TC4_UseConfigReader {
         driver = WebDriverFactory.getDriver(ConfigurationReader.getProperty("browser"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get(ConfigurationReader.getProperty("env2"));
+        driver.get(ConfigurationReader.getProperty("googleURL"));
 
     }
 
@@ -41,7 +41,7 @@ public class TC4_UseConfigReader {
         element.sendKeys(Keys.ENTER);
 
 
-
+        BrowserUtils.sleep(3);
         BrowserUtils.verifyTitle(driver, ConfigurationReader.getProperty("expectedTitle"));
 
 
