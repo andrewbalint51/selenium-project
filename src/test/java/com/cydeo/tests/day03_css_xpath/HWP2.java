@@ -1,5 +1,6 @@
 package com.cydeo.tests.day03_css_xpath;
 
+import com.cydeo.tests.Utilities.ConfigurationReader;
 import com.cydeo.tests.Utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +9,7 @@ import org.openqa.selenium.WebElement;
 public class HWP2 {
     public static void main(String[] args) {
 
-        WebDriver driver = WebDriverFactory.openChrome();
+        WebDriver driver = WebDriverFactory.getDriver(ConfigurationReader.getProperty("browser"));
 
         //2. Go to http://zero.webappsecurity.com/login.html
         driver.get("http://zero.webappsecurity.com/login.html");

@@ -10,7 +10,7 @@ public class HWP1 {
     public static void main(String[] args) {
 
         //Open Chrome
-        WebDriver driver = WebDriverFactory.openChrome();
+        WebDriver driver = WebDriverFactory.getDriver("chrome");
 
         driver.get("https://www.etsy.com");
 

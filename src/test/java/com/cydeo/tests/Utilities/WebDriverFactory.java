@@ -7,20 +7,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class WebDriverFactory {
 
+
     public static WebDriver openChrome(){
-        //1. Open Chrome browser
-        WebDriverManager.chromedriver().setup(); //Setup chrome
 
-        WebDriver driver = new ChromeDriver();
+        WebDriverManager.chromedriver().setup();
+        return new ChromeDriver();
 
-        driver.manage().window().maximize();
-
-        return driver;
     }
 
     public static WebDriver getDriver(String browser){
 
-        WebDriver driver;
 
         if(browser.equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup(); //Setup chrome

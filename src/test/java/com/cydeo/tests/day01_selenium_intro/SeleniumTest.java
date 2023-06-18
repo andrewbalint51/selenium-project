@@ -1,7 +1,9 @@
 package com.cydeo.tests.day01_selenium_intro;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumTest {
@@ -15,6 +17,15 @@ public class SeleniumTest {
 
         //Test Driver
         driver.get("https://www.google.com");
+
+        driver.getTitle();
+
+        WebElement element = driver.findElement(By.xpath("//input[@name='stuff']"));
+
+
+
+
+        driver.close();
 
     }
 }
