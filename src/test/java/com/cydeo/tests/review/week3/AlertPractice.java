@@ -1,6 +1,6 @@
 package com.cydeo.tests.review.week3;
 
-import com.cydeo.tests.base.TestBase;
+import com.cydeo.base.TestBase;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

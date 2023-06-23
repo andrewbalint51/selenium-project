@@ -1,6 +1,6 @@
 package com.cydeo.tests.day08_webtables_properties;
 
-import com.cydeo.tests.base.TestBase;
+import com.cydeo.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

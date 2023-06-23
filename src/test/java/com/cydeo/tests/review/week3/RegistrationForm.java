@@ -1,7 +1,7 @@
 package com.cydeo.tests.review.week3;
 
-import com.cydeo.tests.Utilities.BrowserUtils;
-import com.cydeo.tests.base.TestBase;
+import com.cydeo.utilities.BrowserUtils;
+import com.cydeo.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;

@@ -1,6 +1,6 @@
 package com.cydeo.tests.day10_JSExecutor;
 
-import com.cydeo.tests.Utilities.Driver;
+import com.cydeo.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;

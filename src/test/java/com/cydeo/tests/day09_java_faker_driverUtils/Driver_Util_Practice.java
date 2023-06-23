@@ -1,8 +1,8 @@
 package com.cydeo.tests.day09_java_faker_driverUtils;
 
-import com.cydeo.tests.Utilities.BrowserUtils;
-import com.cydeo.tests.Utilities.ConfigurationReader;
-import com.cydeo.tests.Utilities.Driver;
+import com.cydeo.utilities.BrowserUtils;
+import com.cydeo.utilities.ConfigurationReader;
+import com.cydeo.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

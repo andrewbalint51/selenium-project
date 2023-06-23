@@ -1,6 +1,6 @@
 package com.cydeo.tests.day05_testNG;
 
-import com.cydeo.tests.Utilities.WebDriverFactory;
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;

@@ -1,7 +1,7 @@
 package com.cydeo.tests.day10_JSExecutor;
 
-import com.cydeo.tests.Utilities.BrowserUtils;
-import com.cydeo.tests.Utilities.Driver;
+import com.cydeo.utilities.BrowserUtils;
+import com.cydeo.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

@@ -1,4 +1,4 @@
-package com.cydeo.tests.Utilities;
+package com.cydeo.utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

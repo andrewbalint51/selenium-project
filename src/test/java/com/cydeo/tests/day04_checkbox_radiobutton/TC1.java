@@ -1,6 +1,6 @@
 package com.cydeo.tests.day04_checkbox_radiobutton;
 
-import com.cydeo.tests.Utilities.WebDriverFactory;
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

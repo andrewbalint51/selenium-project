@@ -1,8 +1,8 @@
 package com.cydeo.tests.day07_webtables;
 
-import com.cydeo.tests.Utilities.BrowserUtils;
-import com.cydeo.tests.Utilities.CRMUtils;
-import com.cydeo.tests.Utilities.WebDriverFactory;
+import com.cydeo.utilities.BrowserUtils;
+import com.cydeo.utilities.CRMUtils;
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

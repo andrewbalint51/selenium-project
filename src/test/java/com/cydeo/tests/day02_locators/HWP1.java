@@ -1,6 +1,6 @@
 package com.cydeo.tests.day02_locators;
 
-import com.cydeo.tests.Utilities.WebDriverFactory;
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;

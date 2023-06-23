@@ -1,7 +1,7 @@
 package com.cydeo.tests.day08_webtables_properties;
 
-import com.cydeo.tests.Utilities.WebDriverFactory;
-import com.cydeo.tests.Utilities.WebOrderUtils;
+import com.cydeo.utilities.WebDriverFactory;
+import com.cydeo.utilities.WebOrderUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

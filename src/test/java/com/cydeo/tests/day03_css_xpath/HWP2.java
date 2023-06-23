@@ -1,7 +1,7 @@
 package com.cydeo.tests.day03_css_xpath;
 
-import com.cydeo.tests.Utilities.ConfigurationReader;
-import com.cydeo.tests.Utilities.WebDriverFactory;
+import com.cydeo.utilities.ConfigurationReader;
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

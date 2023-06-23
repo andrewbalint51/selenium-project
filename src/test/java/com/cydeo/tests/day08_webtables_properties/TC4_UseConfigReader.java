@@ -1,8 +1,8 @@
 package com.cydeo.tests.day08_webtables_properties;
 
-import com.cydeo.tests.Utilities.BrowserUtils;
-import com.cydeo.tests.Utilities.ConfigurationReader;
-import com.cydeo.tests.base.TestBase;
+import com.cydeo.utilities.BrowserUtils;
+import com.cydeo.utilities.ConfigurationReader;
+import com.cydeo.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

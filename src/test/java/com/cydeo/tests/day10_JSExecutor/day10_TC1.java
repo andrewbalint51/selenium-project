@@ -1,8 +1,8 @@
 package com.cydeo.tests.day10_JSExecutor;
 
-import com.cydeo.tests.Utilities.BrowserUtils;
-import com.cydeo.tests.Utilities.ConfigurationReader;
-import com.cydeo.tests.Utilities.Driver;
+import com.cydeo.utilities.BrowserUtils;
+import com.cydeo.utilities.ConfigurationReader;
+import com.cydeo.utilities.Driver;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

@@ -1,4 +1,4 @@
-package com.cydeo.tests.Utilities;
+package com.cydeo.utilities;
 
 /*
 This class will be storing utility methods that can be used across the project
